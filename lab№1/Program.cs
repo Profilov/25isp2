@@ -6,6 +6,7 @@
     double R = double.Parse(Console.ReadLine());
     double I = U / R;
     Console.WriteLine($"I={I:F2}");
+
 }
 catch (Exception ex)
 {
