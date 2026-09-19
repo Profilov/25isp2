@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//See https://aka.ms/new-console-template for more information
 //Базовый
 //Console.Write("Введите y:");
 //double y = double.Parse(Console.ReadLine());
@@ -22,14 +22,14 @@
 
 
 
-using System.Text.RegularExpressions;
-//средний
-Console.Write("Введите y:");
-double y = double.Parse(Console.ReadLine());
-Console.Write("Введите w:");
-double w = double.Parse(Console.ReadLine());
-double V = (Math.Pow(y + 2*w, 3))/(Math.Log(y + 0.75));
-Console.WriteLine($"V={V:f2}");
+//using System.Text.RegularExpressions;
+////средний
+//Console.Write("Введите y:");
+//double y = double.Parse(Console.ReadLine());
+//Console.Write("Введите w:");
+//double w = double.Parse(Console.ReadLine());
+//double V = (Math.Pow(y + 2 * w, 3)) / (Math.Log(y + 0.75));
+//Console.WriteLine($"V={V:f2}");
 
 
 
