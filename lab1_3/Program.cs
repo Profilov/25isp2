@@ -133,14 +133,14 @@
 //№14
 try
 {
-    int a=9;
+    int a = 9;
     int b = 4;
     int c = 6;
     Console.Write("Введите число квартиры:");
     int N = int.Parse(Console.ReadLine());
     int flat =N / (a * c) + 1;
     int entrance = (N  / c + 1) % 9;
-    int floor = entrance-1 / c  ;
+    int floor = entrance / 6 ;
     Console.WriteLine($"{flat}:{entrance}:{floor}");
 }
 catch (Exception ex)
