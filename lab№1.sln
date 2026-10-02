@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1_3", "lab1_3\lab1_3.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2", "lab2\lab2.csproj", "{4175C327-40C3-4F40-BC0D-CC4B670E8CC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "область действия и видимость переменных", "область действия и видимость переменных\область действия и видимость переменных.csproj", "{12545B5A-A8D3-4F07-91F9-C05EF1FFA231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2.2", "lab2.2\lab2.2.csproj", "{5601E38D-702C-4712-BDCF-7B7E0DC84B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4175C327-40C3-4F40-BC0D-CC4B670E8CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4175C327-40C3-4F40-BC0D-CC4B670E8CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4175C327-40C3-4F40-BC0D-CC4B670E8CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12545B5A-A8D3-4F07-91F9-C05EF1FFA231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12545B5A-A8D3-4F07-91F9-C05EF1FFA231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12545B5A-A8D3-4F07-91F9-C05EF1FFA231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12545B5A-A8D3-4F07-91F9-C05EF1FFA231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
