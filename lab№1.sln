@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "область действ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2.2", "lab2.2\lab2.2.csproj", "{5601E38D-702C-4712-BDCF-7B7E0DC84B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "тернарная операция условия", "тернарная операция условия\тернарная операция условия.csproj", "{2417A460-28D3-404A-9DBD-D2447C90D419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2.3", "lab2.3\lab2.3.csproj", "{5F299184-CD9A-496F-8183-7D730ABE303D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5601E38D-702C-4712-BDCF-7B7E0DC84B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2417A460-28D3-404A-9DBD-D2447C90D419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2417A460-28D3-404A-9DBD-D2447C90D419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2417A460-28D3-404A-9DBD-D2447C90D419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2417A460-28D3-404A-9DBD-D2447C90D419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F299184-CD9A-496F-8183-7D730ABE303D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F299184-CD9A-496F-8183-7D730ABE303D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F299184-CD9A-496F-8183-7D730ABE303D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F299184-CD9A-496F-8183-7D730ABE303D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
