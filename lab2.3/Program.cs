@@ -1,5 +1,5 @@
 ﻿using System.Text.RegularExpressions;
-
+//15 вариант средний
 try
 {
     Console.Write("Введите номер варианта:");
@@ -26,15 +26,15 @@ try
             break;
         default: break;
     }
-    if (Math.Abs(1-x*x)==a+c)
+    if (Math.Abs(1-x*x)==(a+c))
     {
         y =Math.Sqrt(Math.Abs(a*x-Math.Pow(Math.Cos(b*b*b*x),2)+5.1*c*c));
     }
-    else if (Math.Abs(1 - x * x) >a+c)
+    else if (Math.Abs(1 - x * x) >(a+c))
     {
         y = Math.Exp(0.04 * x)+Math.Log(Math.Abs(b*b*b*b*b*Math.Cos(x)));
     }
-    else if (Math.Abs(1 - x * x) < a + c)
+    else if (Math.Abs(1 - x * x) < (a + c))
     {
         y = Math.Pow(Math.Cos(b * b * b * x*x), 2)+ Math.Log(Math.Abs(b * x - a * a));
     }
