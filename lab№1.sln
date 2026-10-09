@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "тернарная опер
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2.3", "lab2.3\lab2.3.csproj", "{5F299184-CD9A-496F-8183-7D730ABE303D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "структура повторения while", "структура повторения while\структура повторения while.csproj", "{70903060-2D60-4971-8948-ABE2BC74CA47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Дополнительные операторы присваивания", "Доболнительные операторы присваивания\Дополнительные операторы присваивания.csproj", "{06A7CA73-BB48-4E0E-B76A-3E5129BC8955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{5F299184-CD9A-496F-8183-7D730ABE303D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F299184-CD9A-496F-8183-7D730ABE303D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F299184-CD9A-496F-8183-7D730ABE303D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70903060-2D60-4971-8948-ABE2BC74CA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70903060-2D60-4971-8948-ABE2BC74CA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70903060-2D60-4971-8948-ABE2BC74CA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70903060-2D60-4971-8948-ABE2BC74CA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A7CA73-BB48-4E0E-B76A-3E5129BC8955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A7CA73-BB48-4E0E-B76A-3E5129BC8955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A7CA73-BB48-4E0E-B76A-3E5129BC8955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A7CA73-BB48-4E0E-B76A-3E5129BC8955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
