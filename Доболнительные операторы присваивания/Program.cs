@@ -65,6 +65,7 @@
 //    if(i % 7==1 || i%7==2||i%7==5) Console.Write(i+" ");
 //}
 
+
 try
 {
     int n = 0;
