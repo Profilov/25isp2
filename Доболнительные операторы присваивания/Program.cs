@@ -25,7 +25,6 @@
 //Console.WriteLine(k);
 //Console.WriteLine(++k*--k);
 //Console.WriteLine(k);
-
 //double s = 0;
 //int k = 0;
 //Console.WriteLine("Введите числа:");
