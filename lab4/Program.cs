@@ -3,13 +3,13 @@ int[] mas1 = new int[7];
 int[] mas2 = new int[9];
 for (int i = 0; i < mas1.Length; i++)
 {
-    mas1[i] = random.Next(1, 100);
+    mas1[i] = random.Next(10, 100);
     Console.Write($"{mas1[i]} ");
 }
 Console.WriteLine();
 for (int j = 0; j < mas2.Length; j++)
 {
-    mas2[j] = random.Next(1, 100);
+    mas2[j] = random.Next(10, 100);
     Console.Write($"{mas2[j]} ");
 }
 Console.WriteLine(); 

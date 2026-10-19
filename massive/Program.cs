@@ -84,23 +84,23 @@
 //}
 
 //отсортировать элементы массива по возрастанию
-//Random rnd=new Random();
-//int[] mas = new int[rnd.Next(10,20)];
-//for(int i = 0; i < mas.Length; i++)
+//Random rnd = new Random();
+//int[] mas = new int[rnd.Next(10, 20)];
+//for (int i = 0; i < mas.Length; i++)
 //{
-//    mas[i] = rnd.Next(10,100);
+//    mas[i] = rnd.Next(10, 100);
 //    Console.Write($"{mas[i]} ");
 //}
 //Console.WriteLine();
-//for (int i = 0; i < mas.Length-1; i++)
+//for (int i = 0; i < mas.Length - 1; i++)
 //{
-//    for (int j = i+1; j < mas.Length; j++)
+//    for (int j = i + 1; j < mas.Length; j++)
 //    {
 //        if (mas[i] > mas[j])
 //        {
 //            int temp = mas[i];
-//            mas[i]=mas[j];
-//            mas[j]=temp;
+//            mas[i] = mas[j];
+//            mas[j] = temp;
 //        }
 //    }
 //}
@@ -257,18 +257,18 @@
 //}
 
 //30 вариант Высокий уровень
-Random random = new Random();
-int[] mas = new int[3];
-for (int i = 0; i < 3; i++)
-{
-    mas[i] = random.Next(10, 100);
-    Console.Write($"{mas[i]} ");
-}
-Console.WriteLine();
-string[] str = new string[3];
-for (int i = 0; i < str.Length; i++)
-{
-    str[i] = Convert.ToString(mas[i], 2);
-    Console.Write($"{str[i]} ");
-}
-Console.WriteLine();
+//Random random = new Random();
+//int[] mas = new int[3];
+//for (int i = 0; i < 3; i++)
+//{
+//    mas[i] = random.Next(10, 100);
+//    Console.Write($"{mas[i]} ");
+//}
+//Console.WriteLine();
+//string[] str = new string[3];
+//for (int i = 0; i < str.Length; i++)
+//{
+//    str[i] = Convert.ToString(mas[i], 2);
+//    Console.Write($"{str[i]} ");
+//}
+//Console.WriteLine();
