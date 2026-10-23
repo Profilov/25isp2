@@ -14,5 +14,5 @@ foreach (double x in mas)
     {
         y = 0.5 * x;
     }
-    Console.WriteLine($"y = {y:F6}");
+    Console.WriteLine($"y = {y:F2}");
 }
