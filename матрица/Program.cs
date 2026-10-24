@@ -130,8 +130,8 @@ for (int i = 0; i < mas.GetLength(0); i++)
     Console.WriteLine();
 }
 int count = 0;
-for (int i = 0; i < mas.GetLength(0) - 1; i++)
+for (int j = 0; j < mas.GetLength(1) ; j++)
 {
-    if (mas[i, 1] > mas[i + 1, 1]) count++;
+    if (mas[1, j] < mas[1 + 1, j]) count++;
 }
 Console.WriteLine($"Количество столбцов, элементы которых монотонно убывают:{count}");
