@@ -2,7 +2,7 @@
 char[] mas = new char[rnd.Next(5, 25)];
 for (int i = 0; i < mas.Length; i++)
 {
-    mas[i] = (char)rnd.Next('a', 'z');
+    mas[i] = (char)rnd.Next('a', 'f');
 }
 Console.Write("Массив: ");
 for (int i = 0; i < mas.Length; i++)
@@ -14,16 +14,16 @@ Console.Write("Различные символы в массиве: ");
 int count = 0;
 for (int i = 0; i < mas.Length; i++)
 {
-    bool p3 = false;
+    bool p1 = false;
 
     for (int j = 0; j < i; j++)
     {
         if (mas[j] == mas[i])
         {
-            p3 = true; 
+            p1 = true; 
         }
     }
-    if (!p3)
+    if (!p1)
     {
         Console.Write($"{mas[i]} ");
         count++;
