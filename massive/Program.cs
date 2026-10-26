@@ -304,42 +304,59 @@
 //    Console.WriteLine();
 //}
 
-Random rnd = new Random();
-int n = rnd.Next(3, 10);
-int[,] mas = new int[n, n];
-for (int i = 0; i < mas.GetLength(0); i++)
+//Random rnd = new Random();
+//int n = rnd.Next(3, 10);
+//int[,] mas = new int[n, n];
+//for (int i = 0; i < mas.GetLength(0); i++)
+//{
+//    for (int j = 0; j < mas.GetLength(1); j++)
+//    {
+//        mas[i, j]=rnd.Next(-3, 4);
+//        Console.Write($"{mas[i, j]} ");
+//    }
+//    Console.WriteLine();
+//}
+//double S = 0;
+//for (int i = 0; i < mas.GetLength(0); i++)
+//{
+//    for (int j = 0; j < mas.GetLength(1); j++)
+//    {
+//        if (i == j) S += mas[i, j];
+//    }
+//}
+//Console.WriteLine($"{S/mas.GetLength(0):f2}");
+//for (int i = 0; i < mas.GetLength(0); i++)
+//{
+//    for (int j = 0; j < mas.GetLength(1); j++)
+//    {
+//        if (mas[i, j] < 0) mas[i, j] = Math.Abs(mas[i, j]);
+//        Console.Write($"{mas[i, j]} ");
+//    }
+//    Console.WriteLine();
+//}
+// S = 0;
+//for (int i = 0; i < mas.GetLength(0); i++)
+//{
+//    for (int j = 0; j < mas.GetLength(1); j++)
+//    {
+//        if (i == j) S += mas[i, j];
+//    }
+//}
+//Console.WriteLine($"{S / mas.GetLength(0):f2}");
+double[] mas = { Math.PI, 2 * Math.PI };
+foreach (double x in mas)
 {
-    for (int j = 0; j < mas.GetLength(1); j++)
+    double y;
+    if (x > 3.61)
     {
-        mas[i, j]=rnd.Next(-3, 4);
-        Console.Write($"{mas[i, j]} ");
+        y = Math.Exp(-(x + 0.8));
     }
-    Console.WriteLine();
-}
-double S = 0;
-for (int i = 0; i < mas.GetLength(0); i++)
-{
-    for (int j = 0; j < mas.GetLength(1); j++)
+    else if (x >= 0 && x <= 3.61)
     {
-        if (i == j) S += mas[i, j];
+        y = 1.0;
     }
-}
-Console.WriteLine($"{S/mas.GetLength(0):f2}");
-for (int i = 0; i < mas.GetLength(0); i++)
-{
-    for (int j = 0; j < mas.GetLength(1); j++)
+    else
     {
-        if (mas[i, j] < 0) mas[i, j] = Math.Abs(mas[i, j]);
-        Console.Write($"{mas[i, j]} ");
+        y = 0.5 * x;
     }
-    Console.WriteLine();
-}
- S = 0;
-for (int i = 0; i < mas.GetLength(0); i++)
-{
-    for (int j = 0; j < mas.GetLength(1); j++)
-    {
-        if (i == j) S += mas[i, j];
-    }
-}
-Console.WriteLine($"{S / mas.GetLength(0):f2}");
+    Console.WriteLine($"y = {y:F2}");

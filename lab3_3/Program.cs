@@ -1,15 +1,14 @@
-﻿Console.WriteLine("Введите n:");
-Console.WriteLine("Введите x:");
-int n = int.Parse(Console.ReadLine());
-int x = int.Parse(Console.ReadLine());
-double Q = 0;
-for (int k = 1; k <= n; k++)
+﻿Console.WriteLine("Введите x:");
+double x = double.Parse(Console.ReadLine());
+double n = 0.00001;
+double Q = x;
+double term = -(x * x) / 2.0;
+int k = 1;
+while (Math.Abs(term) >= n)
 {
-    int K = 1;
-    for (int i = 1; i <= k; i++)
-    {
-        K *= i;
-    }
-    Q += (Math.Pow(-1, k) * Math.Pow(x + 3, 2)) / K;
+    Q += term;
+    k++;
+    int m = 2 * k;
+    term = -term * (x * x) / ((m - 1) * m);
 }
-Console.WriteLine($"Q={Q:F2}");
+Console.WriteLine($"Результат Q = {Q:F2}");

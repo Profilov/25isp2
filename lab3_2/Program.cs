@@ -1,18 +1,16 @@
-﻿double[] mas = { Math.PI, 2 * Math.PI };
-foreach (double x in mas)
+﻿Console.WriteLine("Введите n:");
+Console.WriteLine("Введите x:");
+int n = int.Parse(Console.ReadLine());
+int x = int.Parse(Console.ReadLine());
+double Q = 0;
+for (int k = 1; k <= n; k++)
 {
-    double y;
-    if (x > 3.61)
+    int K = 1;
+    for (int i = 1; i <= k; i++)
     {
-        y = Math.Exp(-(x + 0.8));
+        K *= i;
     }
-    else if (x >= 0 && x <= 3.61)
-    {
-        y = 1.0;
-    }
-    else
-    {
-        y = 0.5 * x;
-    }
-    Console.WriteLine($"y = {y:F2}");
+    Q += (Math.Pow(-1, k) * Math.Pow(x + 3, 2)) / K;
 }
+Console.WriteLine($"Q={Q:F2}");
+
