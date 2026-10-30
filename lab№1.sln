@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "матрица", "матр�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5.1", "lab5.1\lab5.1.csproj", "{14567685-9519-4B99-91D6-B24F5D67F884}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simvol and stroks", "simvol and stroks\simvol and stroks.csproj", "{FBF4E852-13E2-4754-9174-F2D0E20B47D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5.2", "lab5.2\lab5.2.csproj", "{9838E81D-2797-44F2-B63C-3FE9FFED2421}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{14567685-9519-4B99-91D6-B24F5D67F884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14567685-9519-4B99-91D6-B24F5D67F884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14567685-9519-4B99-91D6-B24F5D67F884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF4E852-13E2-4754-9174-F2D0E20B47D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF4E852-13E2-4754-9174-F2D0E20B47D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF4E852-13E2-4754-9174-F2D0E20B47D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF4E852-13E2-4754-9174-F2D0E20B47D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9838E81D-2797-44F2-B63C-3FE9FFED2421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9838E81D-2797-44F2-B63C-3FE9FFED2421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9838E81D-2797-44F2-B63C-3FE9FFED2421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9838E81D-2797-44F2-B63C-3FE9FFED2421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
