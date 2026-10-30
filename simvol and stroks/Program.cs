@@ -1,95 +1,90 @@
-﻿//char c = 'A';
-//Console.WriteLine((int)c);
-//for (int i = 35; i < 100; i++) ;
-//Console.WriteLine((char)i+"");
-//Console.WriteLine();
-//Console.WriteLine(char.IsDigit('5'));
-//Console.WriteLine(char.IsLetter('X'));
+﻿double DoFunc(int x)
+{
+    return (Math.Sqrt(x) + x) / 2;
+}
+double Max(double x, double y)
+{
+    if (x > y) return x;
+    return y;
+}
+int OddCount(int[] mas)
+{
+    int count = 0;
+    for (int i = 0; i < mas.Length; i++)
+    {
+        if (mas[i] % 2 == 0) count++;
+    }
+    return count;
+}
+int EvenCount(int[] mas)
+{
+    int count = 0;
+    for (int i = 0; i < mas.Length; i++)
+    {
+        if (mas[i] % 2 != 0) count++;
+    }
+    return count;
+}
+int[] GetMas(int[] mas)
+{
+    Random rand = new Random();
+    for (int i = 0; i < mas.Length; i++)
+    {
+        mas[i] = rand.Next(1, 10);
+    }
+    return mas;
+}
+void Print(int[] mas)
+{
+    for (int i = 0; i < mas.Length; i++)
+    {
+        Console.Write(mas[i] + " ");
+    }
+    Console.WriteLine();
+}
 
-//баз ур 30вар
-//char[,] matrix=new char[5,7];
-//Random random= new Random();
-//for (int i = 0; i < matrix.GetLength(0); i++)
-//{
-//    for (int j = 0; j < matrix.GetLength(1); j++)
-//        {
-//            matrix[i, j] = (char)random.Next(40, 70);
-//    Console.WriteLine(matrix[i, j]+"");
-//    }
+long Factorial(int n)
+{
+    long f = 1;
+    for (int i = 1; i < n; i++) f *= i;
+    return f;
+}
 
-//средний ур 30вар
-//char[] mas = new char[15];
-//for (int i = 0; i < mas.Length; i++)
-//    mas[i] = char.Parse(Console.ReadLine()!);
-//string word = Console.ReadLine()!;
-//int count=0;
-//int worldLengtch=word.Length;
-//for (int i=0; i<mas.Length-worldLengtch; i++)
+int DayCount(int g, int m)
+{
+    switch (m)
+    {
+        case 1: case 3: case 5: case 7: case 8: case 10: case 12: return 31;
+        case 2:
+            if (g % 4 == 0) return 29;
+            return 28;
+        default: return 30;
+    }
+}
+//double y = (Math.Sqrt(6) + 6) / 2 + (Math.Sqrt(13) + 13) / 2 + (Math.Sqrt(21) + 21) / 2;
+//double y = DoFunc(6) + DoFunc(13) + DoFunc(21);
+//Console.WriteLine($"y={y:F2}");
+//try
 //{
-//    bool match=true;
-//    for (int j = 0; j < worldLengtch; j++)
-//    {
-//        if (mas[i + j] != word[j])
-//        {
-//            match = false;
-//            break;
-//        }
-//    }
+//    Console.Write("Введите a:");
+//    double a = double.Parse(Console.ReadLine()!);
+//    Console.Write("Введите b:");
+//    double b = double.Parse(Console.ReadLine()!);
+//    Console.WriteLine($"z={Max(a,2*b)*Max(2*a-b,b):f2}");
 //}
-//int[] a = new int[5];
-//Random r = new Random();
-//for (int i=0; i<a.Length; i++)
+//catch(Exception e)
 //{
-//    a[i] = r.Next(1, 10);
-//    Console.WriteLine(a[i]+"");
+//    Console.WriteLine(e.Message);
 //}
-//Console.WriteLine();
-////Array.Clear(a);
-//int[] b = new int[5];
-//a.CopyTo(b);
-//for (int i = 0; i < a.Length; i++)
-//{
-//    a[i] = r.Next(1, 10);
-//    Console.WriteLine(b[i] + "");
-//}
-//Console.WriteLine();
 
-//30,10,2026
+//int[] mas1= new int[8];
+//int[] mas2= new int[8];
+//mas1 = GetMas(mas1);
+//mas2 = GetMas(mas2);
+//Print(mas1);
+//Print(mas2);
+//Console.WriteLine($"Количество четных в первой {OddCount(mas1)}");
+//Console.WriteLine($"Количество нечетных во второй {EvenCount(mas1)}");
 
-using System.Text.RegularExpressions;
-using System.Threading.Channels;
-
-//string s = "456-435-23186";
-//string pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}$";
-
-//if(Regex.IsMatch(s,pattern, RegexOptions.IgnoreCase))
-//    Console.WriteLine("OK");
-//else Console.WriteLine("No");
-
-
-//string s = "daria@mail.ru";
-//string pattern = @"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$";
-
-//if (Regex.IsMatch(s, pattern, RegexOptions.IgnoreCase))
-//    Console.WriteLine("OK");
-//else Console.WriteLine("No");
-
-//30 variant basic lvl
-//string pattern ="^[A-Za-z]$";
-//Console.WriteLine("Введите строку:");
-//string text = Console.ReadLine()!;
-//for (int i=0; i<text.Length; i++)
-//{
-//    if (Regex.IsMatch(text[i].ToString(),pattern))
-//    {
-//        text=text.Remove(i, 1);
-//        i--;
-//    }
-//}
-//Console.WriteLine(text);
-//30 variant average lvl
-string pattern = @"\b(sin|cos|log)\b";
-Console.WriteLine("Введите строку:");
-string text = Console.ReadLine()!;
-string result = Regex.Replace(text, pattern, "$1(", RegexOptions.IgnoreCase);
-Console.WriteLine(result);
+//double y = (2*Factorial(5)+3*Factorial(8)) / (Factorial(6)+Factorial(4));
+//Console.WriteLine($"y={y:f2}");
