@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5.2", "lab5.2\lab5.2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Объявление и вызов методов в C#", "Объявление и вызов методов в C#\Объявление и вызов методов в C#.csproj", "{CDA3C9B4-24A1-4DEE-ABF8-33E3DC03344A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Функции и библиотеки", "Функции и библиотеки\Функции и библиотеки.csproj", "{A4AC7A06-4EE0-41E4-BE61-13A67426D9C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{CDA3C9B4-24A1-4DEE-ABF8-33E3DC03344A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA3C9B4-24A1-4DEE-ABF8-33E3DC03344A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA3C9B4-24A1-4DEE-ABF8-33E3DC03344A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AC7A06-4EE0-41E4-BE61-13A67426D9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AC7A06-4EE0-41E4-BE61-13A67426D9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AC7A06-4EE0-41E4-BE61-13A67426D9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AC7A06-4EE0-41E4-BE61-13A67426D9C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
