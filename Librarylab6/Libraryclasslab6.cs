@@ -4,30 +4,21 @@
     {
         public static long MultiMatrix(int[,] matrix)
         {
-            int max = 0;
-            int min = 0;
-            max = matrix[0, 0];
-            min = matrix[0, 0];
-
-            for (int i = 0; i < matrix.GetLength(0); i++)
+            int max = matrix[0, 0];
+            int min = matrix[0, 0];
+            int size = Math.Min(matrix.GetLength(0), matrix.GetLength(1));
+            for (int i = 0; i < size; i++)
             {
-                for (int j = 0; j < matrix.GetLength(1); j++)
+                if (matrix[i, i] > max)
                 {
-                    if (i == j)
-                    {
-                        if (matrix[i, j] > max)
-                        {
-                            max = matrix[i, j];
-                        }
-                        if (matrix[i, j] < min)
-                        {
-                            min = matrix[i, j];
-                        }
-                    }
+                    max = matrix[i, i];
+                }
+                if (matrix[i, i] < min)
+                {
+                    min = matrix[i, i];
                 }
             }
-
-            return max + min;
+            return (long)max + min;
         }
     }
 }
