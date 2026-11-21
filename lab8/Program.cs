@@ -22,7 +22,6 @@ for (int i = 0; i < comps.Length; i++)
         comps[i].Print();
     }
 }
-
 struct Magazin 
 {
     public string namproductname;
